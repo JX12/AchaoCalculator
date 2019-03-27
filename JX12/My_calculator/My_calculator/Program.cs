@@ -10,8 +10,8 @@ namespace My_calculator
     {
         static void Main(string[] args)
         {
-
-            My_calcula c = new My_calcula(1000000);
+            int a=100;
+            My_calcula c = new My_calcula(a);
             c.Cal_1();
             Console.ReadKey();
         }
